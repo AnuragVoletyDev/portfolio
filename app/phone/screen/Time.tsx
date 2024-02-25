@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
+import styles from "./styles.module.css";
 
 const Time = () => {
   const [currentTime, setCurrentTime] = useState("");
@@ -25,7 +26,11 @@ const Time = () => {
       }
     };
   }, []);
-  return <span style={{ fontSize: 17 }}>{currentTime}</span>;
+
+  if (!currentTime) {
+    return <div className={styles.loading} />;
+  }
+  return <span className={styles.time}>{currentTime}</span>;
 };
 
 export default Time;

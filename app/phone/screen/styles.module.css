@@ -1,0 +1,91 @@
+.time {
+    font-size: 17px;
+}
+
+.loading {
+    background-color: rgba(255,255,255,0.41);
+    width: 47px;
+    height: 19px;
+    border-radius: 8px;
+}
+
+.screen {
+    border-radius: 54px;
+    background-image: url(../../../public/images/wallpaper.png);
+}
+
+.status_bar {
+    height: 38px;
+    width: 94%;
+}
+
+.networks {
+    width: 77px;
+    height: 13px;
+}
+
+.title_first_name {
+    font-size: 90px;
+    line-height: 64px;
+}
+
+.title_last_name {
+    font-size: 45px;
+    line-height: 0px;
+}
+
+.footer {
+    background-color: rgba(0,0,0, 0.75);
+    border-radius: 38px;
+    -box-shadow: 0px 25px 42px 11px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 25px 42px 11px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 25px 42px 11px rgba(0,0,0,0.4);
+} 
+
+.social {
+    height: 60px;
+    width: 60px;
+}
+
+.resume {
+    height: 60px;
+    width: 48px;
+}
+
+
+@media screen and (max-width: 640px) {
+    .time {
+        font-size: 14px;
+    }
+
+    .loading {
+        width: 40px;
+        height: 16px;
+    }
+
+
+    .title_first_name {
+        font-size: 60px;
+        line-height: 0px;
+    }
+    
+    .title_last_name {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+   .networks {
+        width: 59px;
+        height: 9px;
+   } 
+
+   .social {
+        height: 45px;
+        width: 45px;
+    }
+
+    .resume {
+        height: 45px;
+        width: 38px;
+    }
+}

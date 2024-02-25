@@ -1,21 +1,10 @@
 import React from "react";
+import styles from "./styles.module.css";
 
 const Bezel: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <div
-      className="border text-black bezel"
-      style={{
-        height: "100%",
-        width: "100%",
-        borderRadius: "65px",
-        padding: 11,
-        borderColor: "black",
-        backgroundColor: "#000",
-        zIndex: 2,
-        position: "relative",
-        display: "flex",
-        justifyContent: "center",
-      }}
+      className={`${styles.bezel} border text-black h-full w-full z-2 flex relative border-black bg-black justify-center`}
     >
       {children}
     </div>

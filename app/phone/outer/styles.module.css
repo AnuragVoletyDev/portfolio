@@ -1,0 +1,54 @@
+.inner_frame {
+    border-radius: 69px;
+    background-color: #4E4A49;
+}
+
+.antenna {
+    height: 7px;
+    width: 6px;
+    background-color: #31302E;
+}
+
+.bottom {
+    left: 104px;
+}
+
+.top {
+    right: 104px;
+}
+
+.side_top {
+    top: 104px;
+}
+
+.side_bottom {
+    bottom: 104px;
+}
+
+.bezel {
+    border-radius: 65px;
+    padding: 11px;
+}
+
+.frame {
+    height: 888px;
+    width: 442px;
+    border-radius: 70px;
+    border-color: #121511;
+    background-color: #DFD2CF;
+}
+
+@media screen and (max-width: 640px) {
+    .frame {
+        height: 666px;
+        width: 331px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .frame {
+        height: 605px;
+        width: 302px;
+    }
+}

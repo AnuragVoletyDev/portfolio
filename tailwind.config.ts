@@ -16,6 +16,11 @@ const config: Config = {
       fontFamily: {
         sans: ['var(--font-sf-pro)'],
         title: [ 'var(--font-league-spartan)']
+      },
+      zIndex: {
+        '1': '1',
+        '2': '2',
+        '3': '3',
       }
     },
   },
